@@ -1,0 +1,207 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url('../img/background.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 1.5em;
+	height: 100%;
+}
+
+#ratingsButton {
+	margin-top: 3%;
+	color: #FF8000;
+}
+
+.smallTitle{
+	color: #666;
+	font-weight: bold;
+}
+
+#descWrapper{
+	text-align: left;
+}
+
+#trailerWrapper{
+	float: left;
+	width: 400px;
+	margin-left: 8em;
+	margin-bottom: 100px;
+}
+
+#top {
+	text-align: center;
+	margin-bottom: 1%;
+}
+.searchbox {
+	margin-bottom:0 !important;
+}
+
+
+#mainLogo {
+	margin-top:0;
+	width: 60%;
+	height: 60%;
+}
+
+#logo {
+	text-align: center;
+}
+
+#title {
+	font-size: 2em;
+}
+
+#result {
+	margin-top: 4%;
+	margin-bottom: 25%;
+
+}
+
+#myiFrame {
+	overflow:hidden;
+	height: 600px;
+	width: 600px;
+}
+
+#filmImage {
+	margin-top: 10px;
+	float: left;
+	margin-right: 1em;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+#ratings {
+	margin-top: 1%;
+	text-align: center;
+	position: relative;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;	
+	width: 55%; 
+	margin: 0 auto;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+#imdbLogo{
+	width:103px;
+	height:40px;
+	padding-left:5px;
+}
+#imdbPic,#directorName{
+	display:inline;
+	padding-bottom:10px;
+}
+#directorName{
+	margin-left:10px;
+}
+#filmInfo {
+	margin-top: 4%;
+	
+}
+#trailer{
+	border:none;
+}
+#video {
+	margin-top: 1%;
+}
+#filmPoster{
+	height: 330px;
+	width: 227px;
+}
+#imdbLogo{
+	padding-left:5px;
+}
+
+@media (max-width: 750px) {
+	.searchBox {
+		width: 400px;
+	}
+	#details{
+		width: 600px;
+	}
+	#trailer{
+		width: 300px;
+	}
+	#trailerWrapper{
+		margin-left: 0;
+		width: 300px;
+	}
+	#directorName{
+		margin-left:5px;
+	}
+}
+@media (max-width: 440px) {
+	.searchBox {
+		width: 260px;
+	}
+	#details{
+		width:400px;
+	}
+	#trailer{
+		width: 220px;
+		height: 200px;
+		padding-right: 2em;
+	}
+	#trailerWrapper{
+		margin-left: 0;
+		width: initial;
+	}
+	#trailerWrapper h3{
+		padding-right: 2em;
+	}
+	.container{
+		margin-top:0;
+		padding-top:0;
+	}
+	#directorName{
+		margin-left:0px;
+	}
+	
+}
+@media (max-width: 300px){
+	
+}
+
+.footer {
+	position:fixed !important;
+	bottom:0 !important;
+	left:0 !important;
+}
+
+/* Rating stuff */
+
+.rating_container {  
+    clear: both;  
+} 
+ 
+.rating_container a {  
+    float: left;  
+    display: block;  
+    width: 25px;  
+    height: 25px;  
+    border: 0;  
+    background-image: url("../img/rating.gif");  
+} 
+ 
+.rating_container a.rating_off {  
+    background-position: 0 0px;  
+} 
+ 
+.rating_container a.rating_half {  
+    background-position: 0 -25px;  
+} 
+ 
+.rating_container a.rating_on {  
+    background-position: 0 -50px;  
+} 
+ 
+.rating_container a.rating_selected {  
+    background-position: 0 -75px;  
+}  

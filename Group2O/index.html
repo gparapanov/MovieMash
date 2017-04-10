@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- RUN IN CHROME FOR BEST RESULTS -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="MovieMash - Movie Rating Website">
+	<meta name="author" content="Group 2O">
+	<link rel="icon" href="favicon.ico">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<title>MovieMash</title>
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- Custom styles for this template -->
+	<link href="css/main.css" rel="stylesheet">
+	<!-- Pre-loading jQuery, jQuery-ui an main.js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/rtapi.js"></script>
+	<script src="js/konami.1.3.3.js"></script>
+</head>
+
+<body>
+	
+	<div id="inner">
+		<form class="searchBox">
+			<img id="mainLogo" src="img/MovieMashLogoCopy.png" alt="logo">
+			<div class="input-group">
+				<input id="searchInput" type="search" placeholder="Movie title..." class="form-control" />
+				<div class="input-group-btn">
+					<button class="btn btn-info">
+						<span class="glyphicon glyphicon-search"></span>
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="container">
+		<div class="row-centered" id="spinner">
+			<div class="fa fa-spinner fa-spin fa-5x col-centered" id="tesst" style="display: none"></div>
+		</div>
+	</div>
+	<footer class = "footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="copyright">Created with <i class= "red-heart"><i class="fa fa-heart"></i></i> by Group O</span>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline social-buttons">
+						<li>
+							<a href="" title="Adrian Grzywaczewski"><i class="fa fa-male"></i></a>
+						</li>
+						<li>
+							<a href="" title="Roman Kolesov"><i class="fa fa-male"></i></a>
+						</li>
+						<li>
+							<a href="" title="Jemma Tansley"><i class="fa fa-female lg"></i></a>
+						</li>
+						<li>
+							<a href="" title="Georgi Parapanov"><i class="fa fa-male"></i></a>
+						</li>						
+						<li>
+							<a href="" title="Nick Totty"><i class="fa fa-male"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>  
+</body>
+</html>
